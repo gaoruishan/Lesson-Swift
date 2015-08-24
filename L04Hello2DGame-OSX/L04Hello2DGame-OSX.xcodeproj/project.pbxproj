@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA10339C1B8AD31000C1FB8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA10339B1B8AD31000C1FB8A /* AppDelegate.swift */; };
+		FA10339E1B8AD31000C1FB8A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA10339D1B8AD31000C1FB8A /* GameScene.swift */; };
+		FA1033A01B8AD31000C1FB8A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA10339F1B8AD31000C1FB8A /* GameScene.sks */; };
+		FA1033A21B8AD31000C1FB8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1033A11B8AD31000C1FB8A /* Images.xcassets */; };
+		FA1033A51B8AD31000C1FB8A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1033A31B8AD31000C1FB8A /* MainMenu.xib */; };
+		FA1033B11B8AD31000C1FB8A /* L04Hello2DGame_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1033B01B8AD31000C1FB8A /* L04Hello2DGame_OSXTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA1033AB1B8AD31000C1FB8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA10338E1B8AD31000C1FB8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA1033951B8AD31000C1FB8A;
+			remoteInfo = "L04Hello2DGame-OSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA1033961B8AD31000C1FB8A /* L04Hello2DGame-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "L04Hello2DGame-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA10339A1B8AD31000C1FB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA10339B1B8AD31000C1FB8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA10339D1B8AD31000C1FB8A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FA10339F1B8AD31000C1FB8A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FA1033A11B8AD31000C1FB8A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA1033A41B8AD31000C1FB8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FA1033AA1B8AD31000C1FB8A /* L04Hello2DGame-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "L04Hello2DGame-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1033AF1B8AD31000C1FB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1033B01B8AD31000C1FB8A /* L04Hello2DGame_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L04Hello2DGame_OSXTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA1033931B8AD31000C1FB8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1033A71B8AD31000C1FB8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA10338D1B8AD31000C1FB8A = {
+			isa = PBXGroup;
+			children = (
+				FA1033981B8AD31000C1FB8A /* L04Hello2DGame-OSX */,
+				FA1033AD1B8AD31000C1FB8A /* L04Hello2DGame-OSXTests */,
+				FA1033971B8AD31000C1FB8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA1033971B8AD31000C1FB8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA1033961B8AD31000C1FB8A /* L04Hello2DGame-OSX.app */,
+				FA1033AA1B8AD31000C1FB8A /* L04Hello2DGame-OSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA1033981B8AD31000C1FB8A /* L04Hello2DGame-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				FA10339B1B8AD31000C1FB8A /* AppDelegate.swift */,
+				FA10339D1B8AD31000C1FB8A /* GameScene.swift */,
+				FA10339F1B8AD31000C1FB8A /* GameScene.sks */,
+				FA1033A11B8AD31000C1FB8A /* Images.xcassets */,
+				FA1033A31B8AD31000C1FB8A /* MainMenu.xib */,
+				FA1033991B8AD31000C1FB8A /* Supporting Files */,
+			);
+			path = "L04Hello2DGame-OSX";
+			sourceTree = "<group>";
+		};
+		FA1033991B8AD31000C1FB8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA10339A1B8AD31000C1FB8A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA1033AD1B8AD31000C1FB8A /* L04Hello2DGame-OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA1033B01B8AD31000C1FB8A /* L04Hello2DGame_OSXTests.swift */,
+				FA1033AE1B8AD31000C1FB8A /* Supporting Files */,
+			);
+			path = "L04Hello2DGame-OSXTests";
+			sourceTree = "<group>";
+		};
+		FA1033AE1B8AD31000C1FB8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA1033AF1B8AD31000C1FB8A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA1033951B8AD31000C1FB8A /* L04Hello2DGame-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1033B41B8AD31000C1FB8A /* Build configuration list for PBXNativeTarget "L04Hello2DGame-OSX" */;
+			buildPhases = (
+				FA1033921B8AD31000C1FB8A /* Sources */,
+				FA1033931B8AD31000C1FB8A /* Frameworks */,
+				FA1033941B8AD31000C1FB8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "L04Hello2DGame-OSX";
+			productName = "L04Hello2DGame-OSX";
+			productReference = FA1033961B8AD31000C1FB8A /* L04Hello2DGame-OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA1033A91B8AD31000C1FB8A /* L04Hello2DGame-OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1033B71B8AD31000C1FB8A /* Build configuration list for PBXNativeTarget "L04Hello2DGame-OSXTests" */;
+			buildPhases = (
+				FA1033A61B8AD31000C1FB8A /* Sources */,
+				FA1033A71B8AD31000C1FB8A /* Frameworks */,
+				FA1033A81B8AD31000C1FB8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA1033AC1B8AD31000C1FB8A /* PBXTargetDependency */,
+			);
+			name = "L04Hello2DGame-OSXTests";
+			productName = "L04Hello2DGame-OSXTests";
+			productReference = FA1033AA1B8AD31000C1FB8A /* L04Hello2DGame-OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA10338E1B8AD31000C1FB8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = gaoruishan;
+				TargetAttributes = {
+					FA1033951B8AD31000C1FB8A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FA1033A91B8AD31000C1FB8A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FA1033951B8AD31000C1FB8A;
+					};
+				};
+			};
+			buildConfigurationList = FA1033911B8AD31000C1FB8A /* Build configuration list for PBXProject "L04Hello2DGame-OSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA10338D1B8AD31000C1FB8A;
+			productRefGroup = FA1033971B8AD31000C1FB8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA1033951B8AD31000C1FB8A /* L04Hello2DGame-OSX */,
+				FA1033A91B8AD31000C1FB8A /* L04Hello2DGame-OSXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA1033941B8AD31000C1FB8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1033A01B8AD31000C1FB8A /* GameScene.sks in Resources */,
+				FA1033A21B8AD31000C1FB8A /* Images.xcassets in Resources */,
+				FA1033A51B8AD31000C1FB8A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1033A81B8AD31000C1FB8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA1033921B8AD31000C1FB8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA10339E1B8AD31000C1FB8A /* GameScene.swift in Sources */,
+				FA10339C1B8AD31000C1FB8A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1033A61B8AD31000C1FB8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1033B11B8AD31000C1FB8A /* L04Hello2DGame_OSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA1033AC1B8AD31000C1FB8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA1033951B8AD31000C1FB8A /* L04Hello2DGame-OSX */;
+			targetProxy = FA1033AB1B8AD31000C1FB8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA1033A31B8AD31000C1FB8A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA1033A41B8AD31000C1FB8A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA1033B21B8AD31000C1FB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA1033B31B8AD31000C1FB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA1033B51B8AD31000C1FB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "L04Hello2DGame-OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA1033B61B8AD31000C1FB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "L04Hello2DGame-OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA1033B81B8AD31000C1FB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "L04Hello2DGame-OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/L04Hello2DGame-OSX.app/Contents/MacOS/L04Hello2DGame-OSX";
+			};
+			name = Debug;
+		};
+		FA1033B91B8AD31000C1FB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "L04Hello2DGame-OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/L04Hello2DGame-OSX.app/Contents/MacOS/L04Hello2DGame-OSX";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA1033911B8AD31000C1FB8A /* Build configuration list for PBXProject "L04Hello2DGame-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1033B21B8AD31000C1FB8A /* Debug */,
+				FA1033B31B8AD31000C1FB8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1033B41B8AD31000C1FB8A /* Build configuration list for PBXNativeTarget "L04Hello2DGame-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1033B51B8AD31000C1FB8A /* Debug */,
+				FA1033B61B8AD31000C1FB8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA1033B71B8AD31000C1FB8A /* Build configuration list for PBXNativeTarget "L04Hello2DGame-OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1033B81B8AD31000C1FB8A /* Debug */,
+				FA1033B91B8AD31000C1FB8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA10338E1B8AD31000C1FB8A /* Project object */;
+}
