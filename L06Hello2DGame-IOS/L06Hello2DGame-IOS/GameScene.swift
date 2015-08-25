@@ -9,34 +9,29 @@
 import SpriteKit
 
 class GameScene: SKScene {
+      
+      var gameStarted:Bool!
+      var ball:SKSpriteNode!
+      var startGameName:SKLabelNode!
+      
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
-//        let myLabel = SKLabelNode(fontNamed:"Chalkduster")
-//        myLabel.text = "Hello, World!";
-//        myLabel.fontSize = 25;
-//        myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
-//        
-//        self.addChild(myLabel)
+      //设置边界
+      self.physicsBody=SKPhysicsBody(edgeLoopFromRect: self.frame)
+      ball = childNodeWithName("ball") as! SKSpriteNode
+      startGameName = childNodeWithName("startGameName") as! SKLabelNode
+      
     }
-    
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
-        /* Called when a touch begins */
-        
-//        for touch in (touches as! Set<UITouch>) {
-//            let location = touch.locationInNode(self)
-//            
-//            let sprite = SKSpriteNode(imageNamed:"Spaceship")
-//            
-//            sprite.xScale = 0.5
-//            sprite.yScale = 0.5
-//            sprite.position = location
-//            
-//            let action = SKAction.rotateByAngle(CGFloat(M_PI), duration:1)
-//            
-//            sprite.runAction(SKAction.repeatActionForever(action))
-//            
-//            self.addChild(sprite)
-//        }
+    // 默认当点击屏幕时 生成一个✈️
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent){
+      
+      if (gameStarted != nil){
+            
+      }else{
+            gameStarted=true
+            ball.physicsBody = SKPhysicsBody(circleOfRadius: ball.frame.size.width/2)
+            startGameName.hidden = true
+      }
     }
    
     override func update(currentTime: CFTimeInterval) {

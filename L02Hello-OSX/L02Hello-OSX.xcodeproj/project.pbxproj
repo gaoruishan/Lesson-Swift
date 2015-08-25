@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA0B691A1B8B477D00322B24 /* NameSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B69191B8B477D00322B24 /* NameSpace.swift */; };
+		FA0B691C1B8B483700322B24 /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B691B1B8B483700322B24 /* Hello.swift */; };
+		FA0B691E1B8B4FA900322B24 /* Hi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0B691D1B8B4FA900322B24 /* Hi.swift */; };
 		FA1032A21B8ABEA500C1FB8A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1032A11B8ABEA500C1FB8A /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA0B69191B8B477D00322B24 /* NameSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameSpace.swift; sourceTree = "<group>"; };
+		FA0B691B1B8B483700322B24 /* Hello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
+		FA0B691D1B8B4FA900322B24 /* Hi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hi.swift; sourceTree = "<group>"; };
 		FA10329E1B8ABEA500C1FB8A /* L02Hello-OSX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "L02Hello-OSX"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA1032A11B8ABEA500C1FB8A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +44,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA0B691F1B8B4FD400322B24 /* com.gaoruishan */ = {
+			isa = PBXGroup;
+			children = (
+				FA0B69191B8B477D00322B24 /* NameSpace.swift */,
+				FA0B691B1B8B483700322B24 /* Hello.swift */,
+				FA0B691D1B8B4FA900322B24 /* Hi.swift */,
+			);
+			name = com.gaoruishan;
+			sourceTree = "<group>";
+		};
 		FA1032951B8ABEA500C1FB8A = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +73,7 @@
 		FA1032A01B8ABEA500C1FB8A /* L02Hello-OSX */ = {
 			isa = PBXGroup;
 			children = (
+				FA0B691F1B8B4FD400322B24 /* com.gaoruishan */,
 				FA1032A11B8ABEA500C1FB8A /* main.swift */,
 			);
 			path = "L02Hello-OSX";
@@ -118,7 +135,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA0B691E1B8B4FA900322B24 /* Hi.swift in Sources */,
 				FA1032A21B8ABEA500C1FB8A /* main.swift in Sources */,
+				FA0B691C1B8B483700322B24 /* Hello.swift in Sources */,
+				FA0B691A1B8B477D00322B24 /* NameSpace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +256,7 @@
 				FA1032A71B8ABEA500C1FB8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

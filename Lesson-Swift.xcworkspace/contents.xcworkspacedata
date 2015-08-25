@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <FileRef
+      location = "group:L06Hello2DGame-IOS/L06Hello2DGame-IOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L05Hello3DGame-OSX/L05Hello3DGame-OSX.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L04Hello2DGame-OSX/L04Hello2DGame-OSX.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L03HelloWindow-OSX/L03HelloWindow-OSX.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L02Hello-OSX/L02Hello-OSX.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L01Hello-Swift/L01Hello-Swift.xcodeproj">
+   </FileRef>
 </Workspace>

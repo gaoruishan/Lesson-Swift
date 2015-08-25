@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A08F9109-8DB5-488E-A742-9D5ED4B255B1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>L05Hello3DGame-OSX</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BEB4F93C596D321322688E9B6796716E69D1FE24</key>
+		<string>https://github.com/gaoruishan/Lesson-Swift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>L05Hello3DGame-OSX/L05Hello3DGame-OSX.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BEB4F93C596D321322688E9B6796716E69D1FE24</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gaoruishan/Lesson-Swift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BEB4F93C596D321322688E9B6796716E69D1FE24</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BEB4F93C596D321322688E9B6796716E69D1FE24</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Lesson-Swift</string>
+		</dict>
+	</array>
+</dict>
+</plist>
